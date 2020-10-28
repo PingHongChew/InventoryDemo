@@ -23,6 +23,26 @@ export default [
   },
   {
     _tag: 'CSidebarNavItem',
+    name: 'Orders ',
+    to: '/orders',
+    icon: 'cil-description',
+    badge: {
+      color: 'info',
+      text: 'NEW',
+    }
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Customers',
+    to: '/customers',
+    icon: 'cil-address-book',
+    badge: {
+      color: 'info',
+      text: 'NEW',
+    }
+  },
+  {
+    _tag: 'CSidebarNavItem',
     name: 'Users',
     to: '/users',
     icon: 'cil-user',

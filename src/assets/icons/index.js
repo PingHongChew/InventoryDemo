@@ -131,7 +131,9 @@ import {
   cil3d,
   cilPlus,
   cilMinus,
-  cilPlaylistAdd
+  cilPlaylistAdd,
+  cilAddressBook,
+  cilDescription
 } from '@coreui/icons'
 
 export const icons = Object.assign({}, {
@@ -233,7 +235,9 @@ export const icons = Object.assign({}, {
   cil3d,
   cilPlus,
   cilMinus,
-  cilPlaylistAdd
+  cilPlaylistAdd,
+  cilAddressBook,
+  cilDescription
 }, {
   cifUs,
   cifBr,
