@@ -38,7 +38,7 @@ const Product = ({match}) => {
         <CCard>
           <CCardHeader>Product id: {match.params.id}</CCardHeader>
           <CCardBody>
-            <table className="table table-striped table-hover">
+            <table className="table table-hover">
               <tbody>
                 {productDetails.map(([key, value], index) => {
                   return (

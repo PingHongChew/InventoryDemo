@@ -5,7 +5,7 @@ const TheFooter = () => {
   return (
     <CFooter fixed={false}>
       <div>
-        <span>Inventory Demo</span>
+        <span>Ventory</span>
         <span className="ml-1">&copy; 2020</span>
       </div>
       <div className="mfs-auto">
